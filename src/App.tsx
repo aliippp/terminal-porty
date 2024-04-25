@@ -2,7 +2,7 @@ function App() {
 	return (
 		<>
 			<div className=" h-screen bg-black text-white">
-				<div className="float-right mr-2">aliefadha</div>
+				<div className="float-right mr-2 mt-2">aliefadha</div>
 				<div className="">
 					<table className="w-full table-auto text-sm">
 						<tbody>
@@ -28,6 +28,9 @@ function App() {
 							<tr className="">
 								<div className="py-5 text-white">
 									<span className="block text-pink-400">~</span>
+									<div className="text-lime-300 mb-2">
+										Y'all can type anything here. dont worry nothing happen.
+									</div>
 									<input className="bg-black outline-none"></input>
 								</div>
 							</tr>
